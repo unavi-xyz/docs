@@ -29,7 +29,7 @@ const config = {
         blog: false,
 
         docs: {
-          editUrl: "https://github.com/unavi-xyz/docs",
+          editUrl: "https://github.com/unavi-xyz/docs/tree/main",
           path: "./docs",
           routeBasePath: "/",
           sidebarPath: require.resolve("./sidebars.js"),
