@@ -5,6 +5,7 @@
   "scripts": {
     "build": "docusaurus build",
     "clear": "docusaurus clear",
+    "format": "prettier --write .",
     "dev": "docusaurus start --port 3100 --no-open",
     "docusaurus": "docusaurus",
     "serve": "docusaurus serve",
@@ -36,6 +37,7 @@
   "devDependencies": {
     "@docusaurus/module-type-aliases": "^2.4.0",
     "@tsconfig/docusaurus": "^1.0.7",
+    "prettier": "^2.8.8",
     "typescript": "~5.0.4"
   }
 }
