@@ -6,16 +6,13 @@ title: Overview
 
 UNAVI is an open and decentralized web-based metaverse platform.
 
-UNAVI reimagines the web as an **interconnected network of 3D spaces**, instead of 2D pages - all while running on open standards and decentralized infrastructure. You can access UNAVI through any browser, on any device.
+UNAVI reimagines the web as an **interconnected network of 3D spaces**, instead of 2D pages - all while running on open standards and decentralized infrastructure. You can access UNAVI on desktop or mobile devices, with VR support planned in the future.
 
-## 🔥 Features
+## 🔓 An Open Platform
 
-- Decentralized identity and content distribution via Ethereum
-- Open backend: anyone can run their own servers
-- [VRM](https://vrm.dev/) avatar support
-- Custom multi-threaded, [glTF](https://github.com/KhronosGroup/glTF)-based game engine
-- Visual editor for creating spaces
-- Accessible from desktop and mobile devices, with VR support planned
+The goal of UNAVI is to create a platform that can be built upon by others on every level, from the protocol to the client to the servers. We are tired of walled gardens and proprietary platforms - we want to create a platform that is **truly open**, a platform that anyone can build upon, expirement with, and over time a platform that can evolve as the community adopts new features.
+
+The [UNAVI codebase](https://github.com/unavi-xyz/unavi) is fully open source, and the platform is built upon [The Wired Protocol](https://github.com/wired-protocol/spec). Anyone can run their own servers, modify their client, and extend the protocol to add additional features without being isolated from the rest of the network.
 
 :::info
 
