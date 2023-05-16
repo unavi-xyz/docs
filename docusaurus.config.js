@@ -51,6 +51,11 @@ const config = {
         { name: "twitter:card", content: "summary" },
       ],
 
+      colorMode: {
+        defaultMode: "dark",
+        respectPrefersColorScheme: true,
+      },
+
       navbar: {
         title: "UNAVI",
         logo: {
