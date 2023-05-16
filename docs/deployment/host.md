@@ -12,7 +12,7 @@ The host server adds multiplayer functionality to spaces. It is a Node.js server
 
 ## Deployment
 
-### Step 1 - Create deploy script
+### Create deploy script
 
 Create following script that will download and run the latest host image. Make sure to update `MEDIASOUP_ANNOUNCED_IP` with your public IP, `SSL_CERT` with your SSL certificate, and `SSL_KEY` with your SSL key.
 
@@ -49,7 +49,7 @@ docker run -d --name host \
   ghcr.io/unavi-xyz/host
 ```
 
-### Step 2 - Run deploy script
+### Run deploy script
 
 Now just run the script to start the host.
 
