@@ -37,19 +37,18 @@
 }
 
 /* Images */
-.large-img {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 1rem 0 1rem 0;
+.right-img {
+  float: right;
+  margin: 0 0 1rem 1rem;
+  width: 50%;
 }
 
-.large-img > img {
+.right-img > img {
   border-radius: 0.5rem;
   border: 1px solid #dadde1;
   overflow: hidden;
 }
 
-[data-theme="dark"] .large-img > img {
+[data-theme="dark"] .right-img > img {
   border: 0px;
 }
