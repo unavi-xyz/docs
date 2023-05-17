@@ -42,15 +42,15 @@ However, if someone is using a different client than you, they will not be able 
 
 ### NFTs
 
-After you publish a world, you have the option of minting it as an NFT.
-
-Minting a world is beneficial for discovery, as the blockchain can be used as a public index of all worlds that can easily be searched and browsed by others. Minting a world gives people on other clients the ability to discover your world.
-
-:::info
-While worlds that are not minted can not be discovered by people on other clients, they can still be accessed by anyone with the world's URL. You can always share your world with others without minting an NFT.
-:::
+After you publish a world, you have the option of minting it as an NFT. Minting a world is beneficial for discovery, as the blockchain can be used as a public index of all worlds that can easily be searched and browsed by others. Minting a world gives people on other clients the ability to discover your world.
 
 In the future, we plan to add additional functionality to worlds that are minted as NFTs, such as the ability to monetize your worlds.
+
+:::info
+
+UNAVI is currently in beta, and is live on the [Ethereum Sepolia Testnet](https://www.alchemy.com/overviews/sepolia-testnet). You can visit the [Alchemy Sepolia Faucet](https://sepoliafaucet.com/) to get some free testnet ETH.
+
+:::
 
 ## ☁️ Hosting
 
