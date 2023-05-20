@@ -28,7 +28,7 @@ Once your world is ready, you can publish it from the studio to make it availabl
 
 When you publish a world, a `world.json` file is generated. This file contains metadata about your world, such as its name, description, and thumbnail. It also contains a link to the glTF file that represents your world's scene. To learn more about the `world.json` file, check out [The Wired Protocol](https://github.com/wired-protocol/spec).
 
-All you need to join a space is a link to its `world.json` file - just copy the link and paste it into the client. The client will automatically download the world and connect you to it.
+All you need to join a world is a link to its `world.json` file - just copy the link and paste it into the client. The client will automatically download the world and connect you to it.
 
 ## 🌐 Discovery
 
