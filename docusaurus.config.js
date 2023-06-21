@@ -11,7 +11,7 @@ const config = {
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/Logo.png",
+  favicon: "img/Logo-Light.png",
   titleDelimiter: " / ",
 
   i18n: {
@@ -46,8 +46,8 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       metadata: [
-        { property: "og:image", content: "/img/Logo.png" },
-        { name: "twitter:image", content: "/img/Logo.png" },
+        { property: "og:image", content: "/img/Logo-Light.png" },
+        { name: "twitter:image", content: "/img/Logo-Light.png" },
         { name: "twitter:card", content: "summary" },
       ],
 
@@ -60,7 +60,8 @@ const config = {
         title: "UNAVI",
         logo: {
           alt: "Logo",
-          src: "img/Logo-Dark.png",
+          src: "img/Logo.png",
+          srcDark: "img/Logo-Light.png",
         },
         items: [
           {
