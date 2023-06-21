@@ -1,3 +1,3 @@
 # Docs
 
-A documentation site for UNAVI, created using [Docusarus](https://docusaurus.io/).
+A documentation site for UNAVI, using [Docusarus](https://docusaurus.io/).
