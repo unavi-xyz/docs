@@ -23,6 +23,10 @@ export default defineConfig({
           label: 'Overview',
           autogenerate: { directory: 'overview' },
         },
+        {
+          label: 'Content',
+          autogenerate: { directory: 'content' },
+        },
       ],
     }),
   ],
