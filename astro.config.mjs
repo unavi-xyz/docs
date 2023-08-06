@@ -7,8 +7,8 @@ export default defineConfig({
     starlight({
       title: 'UNAVI Docs',
       logo: {
-        light: './src/assets/Logo-Dark.png',
-        dark: './src/assets/Logo-Light.png',
+        light: './src/assets/block-logo-raw.png',
+        dark: './src/assets/block-logo-raw-light.png',
       },
       social: {
         discord: 'https://discord.com/invite/VCsAEneUMn',
