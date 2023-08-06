@@ -15,6 +15,9 @@ export default defineConfig({
         github: 'https://github.com/unavi-xyz/unavi',
         twitter: 'https://twitter.com/unavi_xyz',
       },
+      customCss: [
+        './src/custom.css',
+      ],
       sidebar: [
         {
           label: 'Overview',
