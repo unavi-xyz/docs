@@ -12,7 +12,7 @@ World scenes are stored internally as [glTF](https://github.com/KhronosGroup/glT
 More advanced game functionalities like physics colliders or spawn locations are stored as [glTF extensions](https://github.com/KhronosGroup/glTF/blob/main/extensions/README.md). 
 
 :::note[Info]
-Check out [this blog post](https://mirror.xyz/m3org.eth/00qAzFnCCmAHrqGAQiqObgAD2x6E8wxKtsTSFtorhf0) for more information on glTF, some of the extensions UNAVI uses, and the people working on them.
+Check out [this blog post](https://mirror.xyz/m3org.eth/00qAzFnCCmAHrqGAQiqObgAD2x6E8wxKtsTSFtorhf0) for more information on glTF, some of the extensions UNAVI uses, and the people behind them.
 :::
 
 ## Hosting
@@ -24,7 +24,7 @@ Technically speaking it acts as an [SFU](https://bloggeek.me/webrtcglossary/sfu/
 
 UNAVI runs a host server that is used by default for any worlds created at [unavi.xyz](https://unavi.xyz).
 However, you have the option of runnning your own host server, giving you complete control and ownership of your creations.
-Check out the [deployment guide](/deployment/host) for more information on how to self-host.
+Check out the [deployment guide (WIP)](/deployment/host) for more information on how to self-host.
 
 Travel between worlds is not limited to a single host server.
 You can travel between worlds hosted on different servers, just like you can visit websites from different servers on the web.

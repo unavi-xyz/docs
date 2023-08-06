@@ -199,9 +199,16 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"docs": {
-"guides/example.md": {
-	id: "guides/example.md";
-  slug: "guides/example";
+"content/avatars.md": {
+	id: "content/avatars.md";
+  slug: "content/avatars";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"content/worlds.md": {
+	id: "content/worlds.md";
+  slug: "content/worlds";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
@@ -213,16 +220,16 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".mdx"] };
-"overview/welcome.md": {
-	id: "overview/welcome.md";
-  slug: "overview/welcome";
+"overview/an-open-platform.md": {
+	id: "overview/an-open-platform.md";
+  slug: "overview/an-open-platform";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"reference/example.md": {
-	id: "reference/example.md";
-  slug: "reference/example";
+"overview/welcome.md": {
+	id: "overview/welcome.md";
+  slug: "overview/welcome";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
