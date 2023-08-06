@@ -1,6 +1,3 @@
 {
-  "compilerOptions": {
-    "baseUrl": "."
-  },
-  "extends": "@tsconfig/docusaurus/tsconfig.json"
+  "extends": "astro/tsconfigs/strictest"
 }
