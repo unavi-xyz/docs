@@ -1,0 +1,7 @@
+img {
+  border-radius: 1rem;
+}
+
+a.site-title > img {
+  border-radius: 1px;
+}

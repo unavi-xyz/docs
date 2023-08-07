@@ -1,0 +1,34 @@
+---
+title: Welcome to the UNAVI Docs 
+description: Learn more about the UNAVI platform.
+template: splash
+hero:
+  tagline: Learn more about the UNAVI platform.
+  image:
+    file: ../../assets/block-logo.png
+  actions:
+    - text: Get started
+      link: /overview/welcome/
+      icon: right-arrow
+      variant: primary
+    - text: Enter UNAVI
+      link: https://unavi.xyz
+      icon: external
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+<CardGrid stagger>
+  <Card title="Cross platform" icon="laptop">
+    UNAVI runs in the web, meaning any device that has a browser can instantly access UNAVI - mobile, desktop, or VR!
+  </Card>
+  <Card title="Open architecture" icon="puzzle">
+    Every layer is open for others to build on. Run your own servers, mod your client, and extend the protocol to add new features.
+  </Card>
+  <Card title="VRM avatars" icon="star">
+    Bring your own VRM avatar, or find one from the thousands of avatars others have created. 
+  </Card>
+  <Card title="Seamless world creation" icon="pencil">
+    Edit your worlds live with other people - add in new models and move objects around on the fly, no more waiting for an annoying upload process!
+  </Card>
+</CardGrid>

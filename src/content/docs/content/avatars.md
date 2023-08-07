@@ -1,18 +1,16 @@
 ---
-sidebar_position: 20
-sidebar_label: 💃 Avatars
 title: Avatars
 ---
 
 You can upload and use custom VRM avatars within UNAVI.
 
-## 🤔 What is VRM?
+## VRM
 
 [VRM](https://vrm.dev/) is an open file format for 3D avatars, supported by many applications. You can create a VRM avatar using the [VRoid Editor](https://vroid.com/editor/en), or export to the `.vrm` file format from blender using [this blender plugin](https://github.com/saturday06/VRM-Addon-for-Blender).
 
 UNAVI supports both the VRM 0.0 and 1.0 standards.
 
-## 🚀 Performance Ranks
+## Performance Ranks
 
 UNAVI categorizes avatars into performance ranks based on their optimization levels. This is not a perfect system, but it should give you a rough idea of how well an avatar will perform in UNAVI.
 
