@@ -2,6 +2,9 @@
 title: Content
 ---
 
+In general, The Wired tries to address all content using URIs.
+This is a similar approach to the 2D web, where HTML documents are linked together using URLs.
+
 ## Worlds
 
 In its most basic form, a world is simply a set of JSON metadata.
@@ -18,7 +21,7 @@ For example, a world may look like:
 }
 ```
 
-To join a world, all you need is a URI pointing to this metadata (similar to entering the URL to a website).
+To join a world, all you need is a URI pointing to this metadata.
 The client can then read this metadata and load the world.
 
 ## Profiles
