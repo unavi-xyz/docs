@@ -18,14 +18,9 @@ Check out [this blog post](https://mirror.xyz/m3org.eth/00qAzFnCCmAHrqGAQiqObgAD
 ## Hosting
 
 Just like websites, worlds need servers to host them.
-
 The host server adds **multiplayer functionality** to your world.
-Technically speaking it acts as an [SFU](https://bloggeek.me/webrtcglossary/sfu/) for communication between clients, and is responsible for managing the state of your world.
 
 UNAVI runs a host server that is used by default for any worlds created at [unavi.xyz](https://unavi.xyz).
 However, you have the option of runnning your own host server, giving you complete control and ownership of your creations.
-Check out the [deployment guide (WIP)](/deployment/host) for more information on how to self-host.
+Check out the [networking docs](/wired-protocol/networking/#host) for more information on how hosting works.
 
-Travel between worlds is not limited to a single host server.
-You can travel between worlds hosted on different servers, just like you can visit websites from different servers on the web.
-The ability to self-host worlds is a critical aspect of keeping The Wired an open network.

@@ -7,8 +7,11 @@ title: Networking
 Host servers handle multiplayer functionality for worlds in The Wired.
 Worlds should define a host server to use in their metadata, or if none is provided the client may choose a default server to use.
 
+Travel between worlds is not limited to a single host server.
+You can travel between worlds hosted on different servers, just like you can visit websites from different servers on the web.
+The ability to self-host worlds is a critical aspect of keeping The Wired an open network.
 
-Anyone can run their own host server, just like anyone can host their own website.
+UNAVI provides an [open source, dockerized server](https://github.com/unavi-xyz/unavi/pkgs/container/host) that anyone can use to run their own host.
 
 ### WebSockets
 

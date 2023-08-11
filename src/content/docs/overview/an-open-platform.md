@@ -20,5 +20,4 @@ Anybody can run their own client, and extend it to add new features.
 
 ## Server
 
-The [UNAVI host](https://github.com/unavi-xyz/unavi/pkgs/container/host) is an open source, dockerized server for hosting worlds in The Wired.
-Anybody can run their own server.
+[Host servers](/wired-protocol/networking/#host) follow an open architecture, allowing anyone to host their worlds on their own servers.
