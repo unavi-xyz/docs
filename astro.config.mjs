@@ -27,6 +27,10 @@ export default defineConfig({
           label: 'Content',
           autogenerate: { directory: 'content' },
         },
+        {
+          label: 'The Wired',
+          autogenerate: { directory: 'wired-protocol' },
+        },
       ],
     }),
   ],

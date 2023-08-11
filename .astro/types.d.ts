@@ -234,6 +234,13 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
+"wired-protocol/the-wired.md": {
+	id: "wired-protocol/the-wired.md";
+  slug: "wired-protocol/the-wired";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
 };
 
 	};
