@@ -234,9 +234,30 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"wired-protocol/the-wired.md": {
-	id: "wired-protocol/the-wired.md";
-  slug: "wired-protocol/the-wired";
+"wired-protocol/about.md": {
+	id: "wired-protocol/about.md";
+  slug: "wired-protocol/about";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"wired-protocol/content.md": {
+	id: "wired-protocol/content.md";
+  slug: "wired-protocol/content";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"wired-protocol/identity.md": {
+	id: "wired-protocol/identity.md";
+  slug: "wired-protocol/identity";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"wired-protocol/networking.md": {
+	id: "wired-protocol/networking.md";
+  slug: "wired-protocol/networking";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
