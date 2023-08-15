@@ -2,21 +2,13 @@
 title: Identity
 ---
 
-Identity within The Wired is heavily WIP.
+## DIDs
 
-## Handles
-
-The Wired currently defines a simple system of usernames and home servers for user identity.
-A user handle is in the format of `@username:homeserver`, for example - `@alice:unavi.xyz`.
-
-### Profile 
-
-A user's profile can be accessed from an API at their homeserver,
-
-`GET /.wired-protocol/v1/users/:username`
+The Wired uses [decentralized identifiers](https://en.wikipedia.org/wiki/Decentralized_identifier) (DIDs) to handle user identity.
+Currently UNAVI supports [did\:web](https://w3c-ccg.github.io/did-method-web/).
 
 ## TODO
 
 - Authentication (verify another player's identity within a world)
-- More portable handle system (likely using DIDs)
+- Portable handle system (likely using domains, `@alice.unavi.xyz`)
 - Social features (friends list, following, blocking, etc)
