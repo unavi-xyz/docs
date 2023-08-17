@@ -10,5 +10,6 @@ Currently UNAVI supports [did\:web](https://w3c-ccg.github.io/did-method-web/).
 ## TODO
 
 - Authentication (verify another player's identity within a world)
-- Portable handle system (likely using domains, `@alice.unavi.xyz`)
+- Handle system (likely using domains, `@alice.unavi.xyz`)
+- Support `did:ethr`
 - Social features (friends list, following, blocking, etc)
