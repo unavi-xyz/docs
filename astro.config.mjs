@@ -3,6 +3,7 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+  site: "https://docs.unavi.xyz",
   integrations: [
     starlight({
       title: 'UNAVI Docs',
@@ -34,7 +35,6 @@ export default defineConfig({
       ],
     }),
   ],
-
   // Process images with sharp: https://docs.astro.build/en/guides/assets/#using-sharp
   image: { service: { entrypoint: 'astro/assets/services/sharp' } },
 });
