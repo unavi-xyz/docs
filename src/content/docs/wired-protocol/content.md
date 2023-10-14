@@ -5,6 +5,12 @@ title: Content
 In general, The Wired tries to address all content using URIs.
 This is a similar approach to the 2D web, where HTML documents are linked together using URLs.
 
+
+:::note[Info]
+In the future DIDs may be the preferred method for addressing content within The Wired, as they allow for the most flexibility.
+More research needs to be done in this area.
+:::
+
 ## Worlds
 
 In its most basic form, a world is simply a set of JSON metadata.
@@ -32,14 +38,14 @@ A profile may look like:
 
 ```json
 {
-    name: "Kayh",
+    name: "Alice",
     bio: "I like cats! :3",
     image: "./image.jpg",
     background: "./background.jpg",
     links = [
         {
             title: "My Website",
-            url: "https://kayh.dev"
+            url: "https://example.com"
         }
     ]
 }

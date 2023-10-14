@@ -17,7 +17,9 @@ Check out [this blog post](https://mirror.xyz/m3org.eth/00qAzFnCCmAHrqGAQiqObgAD
 ## Hosting
 
 Just like websites, worlds need servers to host them.
+
 The host server adds **multiplayer functionality** to your world.
+It has the job of connecting players together, and facilitating communication between them.
 
 UNAVI runs a host server that is used by default for any worlds created at [unavi.xyz](https://unavi.xyz).
 However, you have the option of runnning your own host server, giving you complete control and ownership of your creations.
