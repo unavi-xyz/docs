@@ -3,7 +3,6 @@
 
 # Build
 /dist
-.astro
 
 # Misc
 .DS_Store
