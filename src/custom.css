@@ -1,5 +1,5 @@
 img {
-  border-radius: 1rem;
+  @apply rounded-xl
 }
 
 a.site-title > img {

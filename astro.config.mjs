@@ -41,7 +41,9 @@ export default defineConfig({
         },
       ],
     }),
-    tailwind(),
+    tailwind({
+      applyBaseStyles: false,
+    }),
   ],
 
   // Process images with sharp: https://docs.astro.build/en/guides/assets/#using-sharp
