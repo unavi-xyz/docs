@@ -2,7 +2,7 @@
 title: Welcome to UNAVI
 description: An open and decentralized 3D platform built for the web
 sidebar:
-    order: 1
+  order: 1
 ---
 
 UNAVI is an open and decentralized 3D platform built for the web.

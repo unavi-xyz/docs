@@ -1,5 +1,5 @@
 ---
-title: About 
+title: About
 ---
 
 The Wired is an open and extensible protocol for creating, hosting, and interacting with 3D virtual worlds.

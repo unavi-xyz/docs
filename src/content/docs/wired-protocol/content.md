@@ -13,11 +13,11 @@ For example, a world may look like:
 
 ```json
 {
-    title: "My Awesome World",
-    description: "It is very fun!",
-    image: "./image.jpg",
-    host: "host.unavi.xyz",
-    model: "./model.glb"
+  "title": "My Awesome World",
+  "description": "It is very fun!",
+  "image": "./image.jpg",
+  "host": "host.unavi.xyz",
+  "model": "./model.glb"
 }
 ```
 

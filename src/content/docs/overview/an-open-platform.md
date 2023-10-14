@@ -1,7 +1,7 @@
 ---
 title: An Open Platform
 sidebar:
-    order: 2
+  order: 2
 ---
 
 The goal of UNAVI is to create a platform that can be built upon by others on every level, from the protocol to the client to the servers.
