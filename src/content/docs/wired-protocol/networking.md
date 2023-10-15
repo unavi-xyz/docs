@@ -16,7 +16,7 @@ UNAVI provides an [open source dockerized host server](https://github.com/unavi-
 ### WebSockets
 
 The client and host primarily communicate over WebSockets, using [Protobufs](https://protobuf.dev/).
-The full protobuf spec is available on [GitHub](https://github.com/unavi-xyz/wired-protocol), as well as provided packages for using it.
+The full protobuf spec is available on [GitHub](https://github.com/unavi-xyz/the-wired), as well as provided packages for using it.
 
 ### WebRTC
 
