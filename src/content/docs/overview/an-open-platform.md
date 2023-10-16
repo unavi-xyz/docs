@@ -6,7 +6,7 @@ sidebar:
 
 The goal of UNAVI is to create a platform that can be built upon by others on every level, from the protocol to the client to the servers.
 We are tired of walled gardens and proprietary platforms - we want to create a platform that is **truly open**, a platform that anyone can build upon,
-expirement with, and over time a platform that can evolve as the community adopts new features.
+experiment with, and over time a platform that can evolve as the community adopts new features.
 
 ## Protocol
 
