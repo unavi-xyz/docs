@@ -22,5 +22,5 @@ The host server adds **multiplayer functionality** to your world.
 It has the job of connecting players together, and facilitating communication between them.
 
 UNAVI runs a host server that is used by default for any worlds created at [unavi.xyz](https://unavi.xyz).
-However, you have the option of runnning your own host server, giving you complete control and ownership of your creations.
+However, you have the option of running your own host server, giving you complete control and ownership of your creations.
 Check out the [networking docs](/wired-protocol/networking/#host) for more information on how hosting works.
