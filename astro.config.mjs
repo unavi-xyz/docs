@@ -33,12 +33,6 @@ export default defineConfig({
             directory: "content",
           },
         },
-        {
-          label: "The Wired",
-          autogenerate: {
-            directory: "wired-protocol",
-          },
-        },
       ],
     }),
     tailwind({
