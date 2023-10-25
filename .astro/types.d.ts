@@ -185,16 +185,44 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"docs": {
-"content/avatars.md": {
-	id: "content/avatars.md";
-  slug: "content/avatars";
+"docs/content/avatars.md": {
+	id: "docs/content/avatars.md";
+  slug: "docs/content/avatars";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"content/worlds.md": {
-	id: "content/worlds.md";
-  slug: "content/worlds";
+"docs/content/scripts.md": {
+	id: "docs/content/scripts.md";
+  slug: "docs/content/scripts";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"docs/content/worlds.md": {
+	id: "docs/content/worlds.md";
+  slug: "docs/content/worlds";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"docs/guides/self-hosting.md": {
+	id: "docs/guides/self-hosting.md";
+  slug: "docs/guides/self-hosting";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"docs/overview/open-architecture.md": {
+	id: "docs/overview/open-architecture.md";
+  slug: "docs/overview/open-architecture";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"docs/overview/welcome.md": {
+	id: "docs/overview/welcome.md";
+  slug: "docs/overview/welcome";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
@@ -206,20 +234,6 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".mdx"] };
-"overview/an-open-platform.md": {
-	id: "overview/an-open-platform.md";
-  slug: "overview/an-open-platform";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"overview/welcome.md": {
-	id: "overview/welcome.md";
-  slug: "overview/welcome";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
 };
 
 	};

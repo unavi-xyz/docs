@@ -5,11 +5,14 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://docs.unavi.xyz",
-
+  site: "https://unavi.xyz",
   integrations: [
     starlight({
-      title: "UNAVI Docs",
+      title: "UNAVI",
+      description: "An open source VR social platform.",
+      editLink: {
+        baseUrl: "https://github.com/unavi-xyz/docs/edit/main/",
+      },
       logo: {
         light: "./src/assets/block-logo-raw.png",
         dark: "./src/assets/block-logo-raw-light.png",
@@ -19,24 +22,27 @@ export default defineConfig({
         github: "https://github.com/unavi-xyz/unavi",
         twitter: "https://twitter.com/unavi_xyz",
       },
+      components: {
+        Header: "./src/components/Header.astro",
+      },
       customCss: ["./src/tailwind.css", "./src/custom.css"],
       sidebar: [
         {
           label: "Overview",
           autogenerate: {
-            directory: "overview",
+            directory: "docs/overview",
           },
         },
         {
           label: "Content",
           autogenerate: {
-            directory: "content",
+            directory: "docs/content",
           },
         },
         {
           label: "Guides",
           autogenerate: {
-            directory: "guides",
+            directory: "docs/guides",
           },
         },
       ],
@@ -45,8 +51,6 @@ export default defineConfig({
       applyBaseStyles: false,
     }),
   ],
-
-  // Process images with sharp: https://docs.astro.build/en/guides/assets/#using-sharp
   image: {
     service: {
       entrypoint: "astro/assets/services/sharp",
