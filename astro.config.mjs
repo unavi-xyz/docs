@@ -33,6 +33,12 @@ export default defineConfig({
             directory: "content",
           },
         },
+        {
+          label: "Guides",
+          autogenerate: {
+            directory: "guides",
+          },
+        },
       ],
     }),
     tailwind({

@@ -3,8 +3,8 @@ title: Welcome
 description: An open source VR social platform.
 template: splash
 hero:
-  title: UNAVI
-  tagline: An open source VR social platform.
+  title: The UNAVI Docs
+  tagline: Welcome to the UNAVI Docs, where you can find comprehensive guides and documentation about the UNAVI ecosystem.
   image:
     file: ../../assets/block-logo.png
   actions:
@@ -12,20 +12,17 @@ hero:
       link: /overview/welcome/
       icon: right-arrow
       variant: primary
-    - text: Enter UNAVI
-      link: https://unavi.xyz
-      icon: external
 ---
 
 import { Card, CardGrid } from "@astrojs/starlight/components";
 
-<CardGrid>
+<CardGrid stagger>
   <Card title="Open architecture" icon="puzzle">
     Every layer is open for others to build on. Run your own servers, mod your
     client, and extend the protocol to add new features.
   </Card>
   <Card title="VRM avatars" icon="star">
-    Bring your own VRM avatar, or find one from the thousands others have
+    Bring your own VRM avatar, or find one from the thousands of existing avatars others have
     created.
   </Card>
   <Card title="Seamless world creation" icon="pencil">
@@ -38,4 +35,4 @@ import { Card, CardGrid } from "@astrojs/starlight/components";
   </Card>
 </CardGrid>
 
-<p class="text-center pt-16 text-gray-500">:3</p>
+<p class="text-center pt-16 -mb-8 text-gray-500">:3</p>
