@@ -18,7 +18,7 @@ export default defineConfig({
         dark: "./src/assets/block-logo-raw-light.png",
       },
       social: {
-        discord: "https://discord.com/invite/VCsAEneUMn",
+        discord: "https://discord.com/invite/cazUfCCgHJ",
         github: "https://github.com/unavi-xyz/unavi",
         twitter: "https://twitter.com/unavi_xyz",
       },
