@@ -1,5 +1,5 @@
 img {
-  @apply rounded-xl
+  @apply rounded-xl;
 }
 
 a.site-title > img {
