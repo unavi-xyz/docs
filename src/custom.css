@@ -5,3 +5,19 @@ img {
 a.site-title > img {
   border-radius: 1px;
 }
+
+.sl-flex.actions {
+  @apply h-min
+}
+
+.action {
+  @apply py-3 px-5
+}
+
+.hero {
+  @apply py-20
+}
+
+.card-grid article {
+  @apply rounded-md bg-zinc-200/5
+}

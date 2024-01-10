@@ -4,22 +4,20 @@ template: splash
 editUrl: false
 hero:
   title: UNAVI
-  tagline: An open source VR social platform.
+  tagline: An open-source VR social platform built on The Wired.
   image:
     file: ../../assets/block-logo.png
   actions:
-    - text: Play now
-      link: https://app.unavi.xyz
-      icon: right-arrow
-      variant: primary
-    - text: View docs
+    - text: Get Started
       link: /docs/overview/welcome/
-      icon: open-book
+      variant: primary
+    - text: View on GitHub
+      link: https://github.com/unavi-xyz/unavi
 ---
 
 import { Card, CardGrid } from "@astrojs/starlight/components";
 
-<CardGrid stagger>
+<CardGrid>
   <Card title="Open architecture" icon="puzzle">
     Every layer is open for others to build on. Run your own servers, mod your
     client, and extend the protocol to add new features.
