@@ -8,8 +8,8 @@ export default defineConfig({
   site: "https://unavi.xyz",
   integrations: [
     starlight({
-      title: "UNAVI",
-      description: "An open source VR social platform.",
+      title: "UNAVI Docs",
+      description: "An open-source VR social platform built on The Wired.",
       editLink: {
         baseUrl: "https://github.com/unavi-xyz/docs/edit/main/",
       },
@@ -22,27 +22,24 @@ export default defineConfig({
         github: "https://github.com/unavi-xyz/unavi",
         twitter: "https://twitter.com/unavi_xyz",
       },
-      components: {
-        Header: "./src/components/Header.astro",
-      },
       customCss: ["./src/tailwind.css", "./src/custom.css"],
       sidebar: [
         {
           label: "Overview",
           autogenerate: {
-            directory: "docs/overview",
+            directory: "overview",
           },
         },
         {
           label: "Content",
           autogenerate: {
-            directory: "docs/content",
+            directory: "content",
           },
         },
         {
           label: "Guides",
           autogenerate: {
-            directory: "docs/guides",
+            directory: "guides",
           },
         },
       ],

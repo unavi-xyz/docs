@@ -19,5 +19,5 @@ a.site-title > img {
 }
 
 .card-grid article {
-  @apply rounded-md bg-zinc-200/5
+  @apply rounded-md bg-zinc-300/5
 }

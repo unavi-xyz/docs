@@ -12,4 +12,4 @@ instead of 2D pages - all while running on open standards and self-hostable infr
 You can download the UNAVI client natively to your device, or access it from a web browser at [app.unavi.xyz](https://app.unavi.xyz).
 UNAVI is available to play on desktop, mobile, or VR.
 
-![Screenshot](../../../../assets/screenshot-1.png)
+![Screenshot](../../../assets/screenshot-1.png)
