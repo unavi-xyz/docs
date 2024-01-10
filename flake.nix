@@ -9,7 +9,11 @@
       let pkgs = import nixpkgs { inherit system; };
       in rec {
         devShells.default = pkgs.mkShell {
-          buildInputs = with pkgs; [ nodePackages.pnpm nodePackages.prettier ];
+          buildInputs = with pkgs; [
+            nodePackages.pnpm
+            nodePackages.prettier
+            eslint_d
+          ];
         };
       });
 }
