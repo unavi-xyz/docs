@@ -8,7 +8,7 @@ export default defineConfig({
   site: "https://unavi.xyz",
   integrations: [
     starlight({
-      title: "UNAVI Docs",
+      title: "UNAVI",
       description: "An open-source VR social platform.",
   
       editLink: {
