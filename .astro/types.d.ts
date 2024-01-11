@@ -185,44 +185,30 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"docs": {
-"docs/content/avatars.md": {
-	id: "docs/content/avatars.md";
-  slug: "docs/content/avatars";
+"content/avatars.md": {
+	id: "content/avatars.md";
+  slug: "content/avatars";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"docs/content/scripts.md": {
-	id: "docs/content/scripts.md";
-  slug: "docs/content/scripts";
+"content/scripts.md": {
+	id: "content/scripts.md";
+  slug: "content/scripts";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"docs/content/worlds.md": {
-	id: "docs/content/worlds.md";
-  slug: "docs/content/worlds";
+"content/worlds.md": {
+	id: "content/worlds.md";
+  slug: "content/worlds";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"docs/guides/self-hosting.md": {
-	id: "docs/guides/self-hosting.md";
-  slug: "docs/guides/self-hosting";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"docs/overview/open-architecture.md": {
-	id: "docs/overview/open-architecture.md";
-  slug: "docs/overview/open-architecture";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"docs/overview/welcome.md": {
-	id: "docs/overview/welcome.md";
-  slug: "docs/overview/welcome";
+"guides/self-hosting.md": {
+	id: "guides/self-hosting.md";
+  slug: "guides/self-hosting";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
@@ -234,6 +220,20 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".mdx"] };
+"overview/open-architecture.md": {
+	id: "overview/open-architecture.md";
+  slug: "overview/open-architecture";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"overview/welcome.md": {
+	id: "overview/welcome.md";
+  slug: "overview/welcome";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
 };
 
 	};
