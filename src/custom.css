@@ -7,11 +7,19 @@ a.site-title > img {
 }
 
 .sl-flex.actions {
-  @apply h-min
+  @apply h-min gap-4
 }
 
 .action {
-  @apply py-3 px-5
+  @apply font-semibold
+}
+
+.action.primary {
+  @apply py-3 px-6 text-white bg-blue-600 hover:bg-blue-500 transition-colors duration-200
+}
+
+.action.minimal {
+  @apply py-3 px-6 bg-zinc-800 hover:bg-zinc-700 transition-colors duration-200
 }
 
 .hero {
@@ -19,5 +27,10 @@ a.site-title > img {
 }
 
 .card-grid article {
-  @apply rounded-md
+  @apply rounded-md bg-zinc-800 border-none
+}
+
+[data-has-hero] header {
+	border-bottom: 1px solid transparent;
+	background-color: transparent;
 }
