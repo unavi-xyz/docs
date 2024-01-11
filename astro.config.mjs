@@ -9,7 +9,8 @@ export default defineConfig({
   integrations: [
     starlight({
       title: "UNAVI Docs",
-      description: "An open-source VR social platform.",
+      description: "An open-source 3D social platform with seamless multiplayer spaces, dynamic user content, and self-sovereign identity.",
+  
       editLink: {
         baseUrl: "https://github.com/unavi-xyz/docs/edit/main/",
       },
