@@ -5,10 +5,10 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://unavi.xyz",
+  site: "https://docs.unavi.xyz",
   integrations: [
     starlight({
-      title: "UNAVI",
+      title: "UNAVI Docs",
       description: "An open-source VR social platform.",
 
       editLink: {

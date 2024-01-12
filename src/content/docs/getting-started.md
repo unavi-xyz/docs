@@ -1,5 +1,5 @@
 ---
-title: Welcome to UNAVI
+title: Getting Started
 sidebar:
   order: 1
 ---
