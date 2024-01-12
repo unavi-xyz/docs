@@ -10,7 +10,7 @@ export default defineConfig({
     starlight({
       title: "UNAVI",
       description: "An open-source VR social platform.",
-  
+
       editLink: {
         baseUrl: "https://github.com/unavi-xyz/docs/edit/main/",
       },
@@ -26,10 +26,17 @@ export default defineConfig({
       customCss: ["./src/tailwind.css", "./src/custom.css"],
       sidebar: [
         {
-          label: "Overview",
-          autogenerate: {
-            directory: "overview",
-          },
+          label: "Start Here",
+          items: [
+            {
+              label: "Getting Started",
+              link: "getting-started",
+            },
+            {
+              label: "Open Architecture",
+              link: "open-architecture",
+            },
+          ],
         },
         {
           label: "Content",
