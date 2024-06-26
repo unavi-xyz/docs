@@ -27,3 +27,5 @@ Optionally, a world server may enforce anti-cheat measures.
 
 UNAVI runs a server that is used by default for any worlds created at [unavi.xyz](https://unavi.xyz).
 However, you have the option of running your own - giving you complete control and ownership of your creations.
+
+Check out the [self-hosting guide](/guides/self-hosting) to learn how to run your own server.
