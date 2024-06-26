@@ -53,10 +53,7 @@ export default defineConfig({
         },
       ],
 
-      plugins: [
-        starlightImageZoomPlugin(),
-        starlightLinksValidatorPlugin(),
-      ],
+      plugins: [starlightImageZoomPlugin(), starlightLinksValidatorPlugin()],
     }),
     tailwind({
       applyBaseStyles: false,
