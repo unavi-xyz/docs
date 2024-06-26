@@ -19,6 +19,8 @@
             nodePackages.prettier
           ];
         };
+
+        formatter = pkgs.nixfmt-rfc-style;
       }
     );
 }
