@@ -32,7 +32,7 @@ export default defineConfig({
             {
               label: "Getting Started",
               link: "getting-started",
-            }
+            },
           ],
         },
         {
