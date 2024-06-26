@@ -2,6 +2,7 @@ import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
 import tailwind from "@astrojs/tailwind";
 import starlightLinksValidatorPlugin from "starlight-links-validator";
+import starlightImageZoomPlugin from "starlight-image-zoom";
 
 // https://astro.build/config
 export default defineConfig({
@@ -52,7 +53,10 @@ export default defineConfig({
         },
       ],
 
-      plugins: [starlightLinksValidatorPlugin()],
+      plugins: [
+        starlightImageZoomPlugin(),
+        starlightLinksValidatorPlugin(),
+      ],
     }),
     tailwind({
       applyBaseStyles: false,
