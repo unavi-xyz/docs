@@ -29,8 +29,3 @@ a.site-title > img {
 .card-grid article {
   @apply rounded-md bg-zinc-800 border-none;
 }
-
-[data-has-hero] header {
-  border-bottom: 1px solid transparent;
-  background-color: transparent;
-}
