@@ -1,8 +1,5 @@
-# Dependencies
-/node_modules
-
-# Build
 /dist
+/node_modules
 
 # Misc
 .DS_Store
