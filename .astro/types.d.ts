@@ -143,13 +143,13 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"content/scripts.md": {
-	id: "content/scripts.md";
+"content/scripts.mdx": {
+	id: "content/scripts.mdx";
   slug: "content/scripts";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
+} & { render(): Render[".mdx"] };
 "content/worlds.md": {
 	id: "content/worlds.md";
   slug: "content/worlds";
@@ -171,6 +171,13 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
+"guides/writing-scripts.md": {
+	id: "guides/writing-scripts.md";
+  slug: "guides/writing-scripts";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
 "index.mdx": {
 	id: "index.mdx";
   slug: "index";
@@ -178,13 +185,6 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".mdx"] };
-"open-architecture.md": {
-	id: "open-architecture.md";
-  slug: "open-architecture";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
 };
 
 	};
