@@ -32,11 +32,7 @@ export default defineConfig({
             {
               label: "Getting Started",
               link: "getting-started",
-            },
-            {
-              label: "Open Architecture",
-              link: "open-architecture",
-            },
+            }
           ],
         },
         {
